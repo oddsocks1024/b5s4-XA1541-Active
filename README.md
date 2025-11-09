@@ -1,6 +1,10 @@
 # b5s4-XA1541-Active
 Read &amp; Write C64, C128 and VIC-20 disks directly on a PC using a Commodore drive
 
+![b5s4-XA1541-Active](images/1.jpg)
+![b5s4-XA1541-Active](images/2.jpg)
+![b5s4-XA1541-Active](images/4.jpg)
+
 ## Description
 
 This is the b5s4 PCB version of the XA1541 Active adapter. It lets you connect Commodore Floppy Disk drives to a PC with a Parallel
