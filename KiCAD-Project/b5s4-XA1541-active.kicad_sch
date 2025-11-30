@@ -5,7 +5,9 @@
 	(uuid "8501db82-981a-4c4b-9d16-f765b03f2233")
 	(paper "A4")
 	(title_block
-		(title "XA1541-active")
+		(title "b5s4 XA1541 active")
+		(rev "1.2")
+		(company "Oddsocks b5s4")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x06_Pin"
@@ -1770,6 +1772,16 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(text "Original circuit design is © by Michael Klein and Nicolas Welte, 2000."
+		(exclude_from_sim no)
+		(at 151.384 145.796 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d95eb3f4-5bba-4bca-8e95-77bdf651ce50")
 	)
 	(junction
 		(at 128.27 120.65)

@@ -8,8 +8,9 @@
 	)
 	(paper "A4")
 	(title_block
-		(title "XA1541-active")
-		(rev "1.1")
+		(title "b5s4 XA1541 active")
+		(rev "1.2")
+		(company "Oddsocks b5s4")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -48,7 +49,7 @@
 			(usegerberextensions yes)
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
-			(creategerberjobfile no)
+			(creategerberjobfile yes)
 			(dashed_line_dash_ratio 12.000000)
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 4)
@@ -73,12 +74,12 @@
 			(hidednponfab no)
 			(sketchdnponfab yes)
 			(crossoutdnponfab yes)
-			(subtractmaskfromsilk no)
+			(subtractmaskfromsilk yes)
 			(outputformat 1)
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "pcbway-gerbers")
+			(outputdirectory "gerbers")
 		)
 	)
 	(net 0 "")
@@ -6146,7 +6147,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "Rev 1.2\n- Removed some right angles in the traces\n- Additional Via stiching\n- Some minor Silkscreen improvements\n"
+	(gr_text "Rev 1.2\n- Removed some right angles in the traces\n- Some minor silkscreen improvements\n"
 		(at 149.86 81.28 0)
 		(layer "User.1")
 		(uuid "2eff997c-05ac-4b08-a8ad-d6d2f182ff60")
@@ -6158,7 +6159,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Rev 1.1\n- Some additional notes on the silkscreen\n- Moved some stiching vias\n- DIN socket was mounted in reverse\n"
+	(gr_text "Rev 1.1\n- Some additional notes on the silkscreen\n- Moved some stitching vias\n- DIN socket was mounted in reverse\n"
 		(at 149.86 73.66 0)
 		(layer "User.1")
 		(uuid "ea35b271-a425-4e56-a8fc-788f2bd8cac3")
